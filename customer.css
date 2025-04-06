@@ -675,3 +675,257 @@ input:checked + .slider:before {
         width: 100%;
     }
 }
+.footer {
+    background-color: var(--primary);
+    color: var(--text-light);
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 0 0 0;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    margin-bottom: 40px;
+}
+
+.brand-section {
+    flex: 0 0 100%;
+    max-width: 300px;
+}
+
+.links-section {
+    flex: 0 0 160px;
+}
+
+.contact-section {
+    flex: 0 0 100%;
+    max-width: 340px;
+}
+
+.footer-logo {
+    font-family: 'Futura', sans-serif;
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: var(--text-light);
+}
+
+.footer-tagline {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: var(--accent);
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: var(--secondary);
+    transform: translateY(-3px);
+}
+
+.footer-heading {
+    font-family: 'Futura', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--text-light);
+    position: relative;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 3px;
+    background-color: var(--secondary);
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: var(--secondary);
+    padding-left: 5px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--accent);
+}
+
+.contact-info li i {
+    margin-right: 10px;
+    color: var(--secondary);
+}
+
+.newsletter h4 {
+    font-family: 'Futura', sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: var(--text-light);
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.newsletter-form input:focus {
+    outline: none;
+}
+
+.subscribe-btn {
+    background-color: var(--secondary);
+    color: var(--text-light);
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-family: 'Futura', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #e68a00;
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 13px;
+    color: var(--accent);
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bottom-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+    color: var(--secondary);
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+    .brand-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .links-section {
+        flex: 0 0 45%;
+    }
+    
+    .contact-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+   
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    
+    .footer-bottom .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-bottom-links {
+        justify-content: center;
+    }
+}
+.footer{
+    position: relative;
+    margin-bottom: 0px;
+    height: 410px;
+    padding: 0px;
+}
+.footer-section{
+    margin-top: 50px;
+}
+.meta{
+    border-radius: 25px;
+}
